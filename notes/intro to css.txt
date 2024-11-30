@@ -1,0 +1,26 @@
+3 ways to add CSS to your website
+1. Inline CSS
+2. Internal CSS
+3. External
+
+1. Inline CSS = we write CSS inside the tag we want to style with style attribute
+	<h2 style="text-align: center;">Amairaa</h2>
+2. Internal CSS = we put all the styles inside head of HTML with <style> tag
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amairaa's profile</title>
+    <style>
+        h2 {
+	    text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <h2>My Profile</h2>
+  </body>
+</html>
+
+3. External CSS = we create new file for css and then link it wilth the HTML
+- create a new file called styles.css
+- link it to HTML with <link rel="stylesheet" href="styles.css" />

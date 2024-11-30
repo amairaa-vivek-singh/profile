@@ -1,0 +1,67 @@
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #3b1e54;
+}
+body {
+  /* background-color: rgb(245, 228, 129); */
+  background-color: #d4bee4;
+  font-family: monospace;
+}
+p {
+  font-size: 24px;
+  color: #4c1f7a;
+}
+h3 {
+  font-size: 35px;
+  text-align: center;
+  color: #b03052;
+}
+#about-me {
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+#my-message {
+  background-color: rgb(255, 255, 145);
+  border: 3px rgb(255, 193, 152) dashed;
+}
+
+div {
+  margin: 100px;
+  padding: 20px;
+}
+
+.images img {
+  width: 195px;
+  height: 150px;
+}
+#movie-banner {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+li {
+  font-size: 24px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9c0ab;
+  border-radius: 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.nav-links a {
+  color: #3b1e54;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+  color: red;
+}
