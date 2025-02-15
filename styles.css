@@ -71,3 +71,18 @@ header {
   margin: 0 auto;
   width: 50%;
 }
+
+.project-img {
+  width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.project-link {
+  text-decoration: none;
+  font-size: 24px;
+  background-color: #3b1e54;
+  padding: 16px 32px;
+  border-radius: 25px;
+  color: white;
+}
